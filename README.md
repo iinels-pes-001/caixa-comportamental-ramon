@@ -1,5 +1,8 @@
 <img align="right" hspace="20" src="https://img.shields.io/badge/ICX-v1.0.0-orange.svg?style=flat-square">
 
+<div style="text-align:center"> <IMG WIDTH = 600 height = 300 SRC="https://i.ibb.co/Lp5cXVT/img.jpg" align = "middle">
+   
+      
 # iCX - Caixa Comportamental
 Repositório dedicado ao projeto **iCX** (tarefa "CAIXA COMPORTAMENTAL DO RAMON") da disciplina "Fundamentos de Programação e Engenharia de Software - 2019.2" do IIN-ELS.
 
