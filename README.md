@@ -112,6 +112,15 @@ Para maiores informações sobre o **iCX** e os recursos por ele fornecidos, vis
 **@larissaplopes**
 * `Email: larissaplopes@outlook.com`
 
+**@flaviafreirec**
+* `Email: flavia.carneiro@edu.isd.org.br`
+
+**@tassianunes**
+* `Email: tassia.nunes@edu.isd.org.br`
+
+**@tamaranunes**
+* `Email: tamara.nunes@edu.isd.org.br`
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
