@@ -20,8 +20,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>50</y>
+      <x>70</x>
+      <y>60</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -34,11 +34,11 @@ font: 87 9pt &quot;Arial Black&quot;;</string>
      <string>USUÁRIO</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="userName">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>50</y>
+      <x>180</x>
+      <y>60</y>
       <width>221</width>
       <height>20</height>
      </rect>
@@ -47,39 +47,13 @@ font: 87 9pt &quot;Arial Black&quot;;</string>
      <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="animalIdentificationNumber">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>100</y>
-      <width>221</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-   </widget>
-   <widget class="QDateEdit" name="dateEdit">
-    <property name="geometry">
-     <rect>
-      <x>120</x>
-      <y>160</y>
-      <width>110</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-   </widget>
-   <widget class="QTimeEdit" name="timeEdit">
-    <property name="geometry">
-     <rect>
-      <x>330</x>
-      <y>160</y>
-      <width>118</width>
-      <height>22</height>
+      <x>170</x>
+      <y>130</y>
+      <width>111</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -89,8 +63,8 @@ font: 87 9pt &quot;Arial Black&quot;;</string>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>230</y>
+      <x>160</x>
+      <y>190</y>
       <width>211</width>
       <height>31</height>
      </rect>
@@ -112,11 +86,11 @@ font: 87 16pt &quot;Arial Black&quot;;</string>
      <string>ESCOLHA ROTINA</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="pushButton3">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>300</y>
+      <x>160</x>
+      <y>260</y>
       <width>201</width>
       <height>31</height>
      </rect>
@@ -142,8 +116,8 @@ color: rgb(0, 0, 0);</string>
    <widget class="QLabel" name="label_10">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>100</y>
+      <x>80</x>
+      <y>130</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -156,45 +130,11 @@ font: 87 9pt &quot;Arial Black&quot;;</string>
      <string>ANIMAL</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QPushButton" name="pushButton4">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>150</y>
-      <width>41</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);
-font: 87 9pt &quot;Arial Black&quot;;</string>
-    </property>
-    <property name="text">
-     <string>DATA</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>160</y>
-      <width>41</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);
-font: 87 9pt &quot;Arial Black&quot;;</string>
-    </property>
-    <property name="text">
-     <string>HORA</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_4">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>360</y>
+      <x>160</x>
+      <y>340</y>
       <width>201</width>
       <height>31</height>
      </rect>
@@ -248,7 +188,54 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>II-NELS</string>
+     <string>IIN-ELS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>110</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 87 9pt &quot;Arial Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Nº</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>110</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 87 9pt &quot;Arial Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>NOME</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="animalName">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>130</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
   </widget>

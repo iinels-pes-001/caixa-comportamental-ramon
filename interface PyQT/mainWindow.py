@@ -22,7 +22,7 @@ class Ui_Form(object):
     def openWindow1 (self):
         self.window = QtWidgets.QMainWindow ()
         self.ui = Ui_MainWindow1 ()
-        self.ui.setup (self.window)
+        self.ui.setup1(self.window)
         self.window.show ()
 
       

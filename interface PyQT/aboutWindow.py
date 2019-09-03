@@ -11,7 +11,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_MainWindow1(object):
-    def setup(self, MainWindow):
+    def setup1(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(501, 493)
         MainWindow.setStyleSheet("background-color: rgb(0, 0, 0);")
@@ -57,10 +57,10 @@ class Ui_MainWindow1(object):
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'-apple-system\'; font-size:9pt; color:#00ff00;\">O </span><span style=\" font-family:\'-apple-system\'; font-size:9pt; font-weight:600; color:#00ff00;\">iBOX</span><span style=\" font-family:\'-apple-system\'; font-size:9pt; color:#00ff00;\"> é uma aplicação Python a ser executada em um modelo Raspberry (computador de placa única do tamanho reduzido) para automação de uma caixa comportamental posível de ser configurada remotamente.<br /><br /><br />Desenvolvedores:<br />Alex Aquino <br />Bruno Spinelli <br />Erika </span></p>\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'-apple-system\'; font-size:9pt; color:#00ff00;\">O </span><span style=\" font-family:\'-apple-system\'; font-size:9pt; font-weight:600; color:#00ff00;\">iBOX</span><span style=\" font-family:\'-apple-system\'; font-size:9pt; color:#00ff00;\"> é uma aplicação Python a ser executada em um modelo Raspberry (computador de placa única do tamanho reduzido) para automação de uma caixa comportamental posível de ser configurada remotamente.<br /><br /><br />Desenvolvedores:<br />Alex Aquino <br />Bruno Spinelli <br />Erika Garcia</span></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'-apple-system\'; font-size:9pt; color:#00ff00;\">Flávia Freire</span></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'-apple-system\'; font-size:9pt; color:#00ff00;\">Johseph Paballo<br />Larissa Pinto<br />Pablo Queiroz<br />Rodrigo Amaral<br />Tâmara Nunes<br />Tássia Nunes<br /></span></p>\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'-apple-system\'; font-size:9pt; color:#00ff00;\"><br />Para saber mais, acesse:<br /></span><a href=\"https://github.com/iinels-pes-001/icx\"><span style=\" font-size:8pt; text-decoration: underline; color:#00ff00;\">GitHub - iBOX</span></a></p></body></html>"))
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'-apple-system\'; font-size:9pt; color:#00ff00;\"><br />Para saber mais, acesse:<br /></span><a href=\"https://github.com/iinels-pes-001/icx\"><span style=\" font-size:8pt; text-decoration: underline; color:#0000ff;\">GitHub - iBOX</span></a></p></body></html>"))
         self.label_4.setText(_translate("MainWindow", "iBOX"))
         self.label_6.setText(_translate("MainWindow", "II-NELS"))
 
@@ -70,6 +70,6 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow1()
-    ui.setup(MainWindow)
+    ui.setup1(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())
